@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em "Open Sans", sans-serif;
+}
+
+body {
+    background-color: rgb(250, 241, 228) ;
+    border: 10px sienna;
+}
+
+.main {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 3em;
+    
+}
+
+/* -----------------------------*/
+
+
+.menu {
+    width: 100%;
+    background-color: rgb(85, 84, 84);
+    color: blanchedalmond;
+}
+
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 2em;
+    line-height: 30px;
+    background-color: brown;
+}
+
+.menu > ul {
+    margin: 0;
+    padding: 0;
+    float: left ;
+    list-style-type: none;
+
+}
+
+.menu > ul >li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu-item:hover {
+    background-color: crimson;
+    color: #000;
+}
+
+/*----------------------------*/
+
+.p #title { 
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 43px;
+}  
+
+.p #P1 {
+    position: relative;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 20px;
+
+    
+}
+.p {
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    flex: 0%;
+    max-width: 400px;
+    top: 50px;
+    border: 3px solid black;
+    box-shadow: 2px 10px 2px #888888;
+}
+
+
+
+.p2 #title2 {
+
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 43px;
+
+
+}
+
+.p2 #P12 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 20px;
+
+}
+
+.p2 {
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    flex: 0%;
+    max-width: 400px;
+    top: 50px;
+
+}
+
+/*-------------next----------*/
+
+.Next {
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    flex: 0%;
+    max-width: 400px;
+    top: 50px;
+
+}
+
+.Next #titlenext {
+
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 43px;
+
+
+}
+
+    .Next #P1next {
+
+    position: relative;
+    background-color: rgb(163, 25, 25);
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 20px;
+
+    }
+
+/*---------------button--------*/
+
+.but {
+
+    text-align: center;
+}
+
+.button {
+
+    /* position: absolute; */
+    top: 50%;
+    position: relative;
+    font-size: 60px;
+    color: red;
+}
+
+
+/*-----------button back-----------*/
+
+.but1 {
+    text-align: center;
+
+
+}
+
+.button1 {
+
+    top: 50%;
+    position: relative;
+    font-size: 60px;
+}
